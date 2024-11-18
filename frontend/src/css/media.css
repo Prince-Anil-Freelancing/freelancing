@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .carousel-container h2 {
+      font-size: 1.5em;
+    }
+  
+    .carousel-container p {
+      font-size: 1em;
+    }
+  
+    .carousel-image {
+      max-height: 400px;
+    }
+
+    .project .p-box{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .project .p-box .p-image{
+      width: 100%;
+
+    }
+
+    .project .p-box .p-detail{
+      width: 100%;
+    }
+  }
