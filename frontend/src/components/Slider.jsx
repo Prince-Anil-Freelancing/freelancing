@@ -7,8 +7,9 @@ const slides = [
   {
     image: image1,
     heading: 'Slide 1',
-    description: 'Description for Slide 1'
+    description: 'Description for Slide 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quo, dignissimos aspernatur nam fuga voluptatibus!'
   },
+  // Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quo, dignissimos aspernatur nam fuga voluptatibus!
   {
     image:image2,
     heading: 'Slide 2',
