@@ -11,10 +11,18 @@
       max-height: 400px;
     }
 
+    .Info .info-m{
+      width: 90%;
+      padding: 5px;
+      text-align: center;
+    }
+
     .project .p-box{
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      padding: 5px;
+      width: 90%;
     }
 
     .project .p-box .p-image{
@@ -24,5 +32,15 @@
 
     .project .p-box .p-detail{
       width: 100%;
+      text-align: center;
     }
+    .buyproject .box{
+      flex-wrap: nowrap;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .buyproject .box .pinfo{
+      width: 80%;
+  }
   }

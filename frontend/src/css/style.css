@@ -8,17 +8,26 @@
 
 nav {
   width: 100%;
-  height: 50px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3c6fa4;
-  color:white ;
+  background-color: #e0e5e9;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 
 nav .logo{
-  padding: 5px;
+  /* padding: 5px; */
+  width: 10%;
+  height: 80px;
+}
 
+nav .logo img{
+  width:100%;
+  height:100%;
+  mix-blend-mode: multiply;
 }
 
 nav ul{
@@ -26,9 +35,15 @@ nav ul{
   padding: 5px;
 }
 
-nav ul li{
-  list-style: none;
+nav ul a{
+ text-decoration: none;
   margin: auto 10px;
+  color:black ;
+}
+
+nav ul a li{
+  list-style: none;
+
 }
 
 nav ul li:hover{
@@ -46,7 +61,6 @@ nav ul li:hover{
 .carousel-container {
   text-align: center;
   padding: 20px;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,27 +68,13 @@ nav ul li:hover{
 
 .carousel-container h2 {
   font-size: 2em;
-  margin-bottom: 10px;
-  position: absolute;
-  top: 100px;
-  right: 150px;
-  bottom: 0;
-  color: white;
-  backdrop-filter: blur(3px);
-  height: 50px;
+  color: black;
 }
 
 .carousel-container p {
   font-size: 1.2em;
   margin-bottom: 20px;
-  position: absolute;
-  top: 150px;
-  right: 150px;
-  bottom: 0;
-  color: white;
-  backdrop-filter: blur(3px);
-  height: 50px;
-  width: 350px;
+  color: black;
 }
 
 .carousel {
@@ -217,9 +217,10 @@ nav ul li:hover{
   /* About Us Section */
 
   .about-us-section {
-    padding: 20px;
+    /* margin: 20px; */
     background-color: #f9f9f9;
     text-align: center;
+    width: 100%;
   }
   
   .title-heading {
@@ -233,18 +234,21 @@ nav ul li:hover{
   }
   
   .team-grid {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     gap: 20px;
     justify-content: center;
+    align-items: center;
   }
   
   .team-card {
+    width: 80%;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
   }
@@ -404,3 +408,52 @@ nav ul li:hover{
     }
   }
   
+
+  .buyproject{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.buyproject .box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.buyproject .box .pinfo{
+    width: 30%;
+    margin: 10px 10px;
+    box-shadow: 0 0 10px 2px rgb(65, 65, 60);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buyproject .box .pinfo img{
+    width: 95%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buyproject .box .pinfo a{
+    padding: 10px;
+    background-color: rgb(70, 70, 230);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.buyproject .box .pinfo a:hover{
+    box-shadow: 0 0 5px 2px rgb(70, 70, 230) ;
+}
+
+.buyproject .back{
+    margin: 20px;
+}
+
+.buyproject .back a{
+    text-decoration: none;
+    color: black;
+}
