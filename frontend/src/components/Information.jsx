@@ -4,7 +4,15 @@ const Information = () => {
   return (
     <div className='Info'>
       <div className='info-m'>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit natus delectus a veritatis laudantium ad sit voluptate facere ipsam obcaecati aliquid sint deserunt cupiditate tenetur aut modi aperiam totam, veniam necessitatibus ea explicabo maiores! Earum impedit est eius placeat ipsam fuga esse iure inventore a non repudiandae illo ullam, officiis, voluptatum odit aliquam perferendis blanditiis delectus rem quae quibusdam? Autem quia facilis qui, pariatur reiciendis necessitatibus sed quis architecto obcaecati ut fugiat, illum odio excepturi minus tenetur! Id, neque dolor voluptatum optio accusamus, iusto odit dicta labore quibusdam molestiae est perspiciatis possimus! Vitae, necessitatibus a repellendus provident eveniet earum ut.</p>
+      <p>
+
+- Designed and developed scalable, efficient, and secure web applications using MongoDB, Express.js, React, and Node.js (MERN Stack). <br />
+- Implemented RESTful APIs using Express.js, connecting front-end and back-end applications seamlessly. <br />
+- Developed and optimized MongoDB databases, ensuring high performance, data integrity, and security. <br />
+- Built reusable UI components using React, reducing development time and improving code maintainability. <br />
+- Collaborated with cross-functional teams to identify project requirements, design solutions, and deliver high-quality products. <br />
+
+</p>
       </div>
       
     </div>
