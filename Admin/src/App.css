@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", serif;
+}
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+.login form {
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  border-radius: 10px;
+  background: url("/bg.jpg");
+  object-fit: cover;
+  background-position: center center;
+}
+.login form .form-group input {
+  width: 50%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin: 10px auto;
+  font-size: 15px;
+  font-weight: 500;
+  font: bolder;
+}
+.login form .form-group button {
+  width: 20%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin: 10px auto;
+  font-size: 15px;
+  font-weight: 500;
+  font: bolder;
+  cursor: pointer;
+  background-color: #c4e9fa;
+  transition: 0.2s;
+}
+.login form .form-group button:hover {
+  box-shadow: 0px 0px 5px 1px #f1edf7;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.App-body {
+  display: flex;
+  flex: 1;
+}
+.App-content {
+  margin-left: 220px;
+  padding: 20px;
+  flex: 1;
+  background-color: #f4f4f4;
+  overflow: auto;
+} /* Responsive design */
+@media (max-width: 768px) {
+  .App-content {
+    margin-left: 120px;
+  }
+} /* Effects and transitions */
+.App-header,
+.App-sidebar,
+.App-content {
+  transition: all 0.3s ease;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  /* padding: 20px; */
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.App-sidebar {
+  background-color: #333;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.App-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.App-sidebar li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.App-sidebar ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.App-sidebar li span {
+  margin-left: 8px; /* Adjust margin as needed */
+}
+
+.App-sidebar li:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+.App-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.App-table th,
+.App-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.App-table th {
+  background-color: #282c34;
+  color: white;
+}
+
+.action-button {
+  background-color: #f56464;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #a04545;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 2em;
+  color: #333;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
